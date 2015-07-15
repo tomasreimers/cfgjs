@@ -31,4 +31,4 @@ parser.define('n', '[0-9]+', true);
 
 module.exports = parser;
 
-// example : calc.parse('3 * ( 4 - 2 )', 'e')
+// example : parser.parse('3 * ( 4 - 2 )', 'e')
